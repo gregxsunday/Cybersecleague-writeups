@@ -1,6 +1,6 @@
 with open('led.txt') as file:
     blinks = file.read()
-    start = blinks.find('1' * 45)
+    start = blinks.find('1' * 45) #find 3-second light, indicating beggining
     blinks = blinks[start:]
     start = blinks.find('0')
     blinks = blinks[start:]
