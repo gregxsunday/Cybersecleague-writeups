@@ -12,3 +12,6 @@ Link do oryginalnego video: https://drive.google.com/file/d/1g2RuYJ4CpHJp_axKoD9
 2.```python read_blinks.py``` zamienia mignięcia na bity i zapisuje do pliku bits.txt. Odczyt z wideo nie jest jednak w 100% dokładny.
 
 3.```python manual_finalization.py``` wczytuje bity z pliku bits.txt i wypisuje je w takiej formie, żeby dało się wychwycić miejsca, w których bit synchronizacyjny nie jest równy jeden. Od tego punktu trzeba ręcznie dopisywać lub usuwać bity tak, aby otrzymać znaki drukowalne.
+
+
+*zadanie zrobione po zakończeniu wydarzenia (kosztowało nas zwycięstwo)
